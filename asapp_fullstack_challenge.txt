@@ -1,0 +1,42 @@
+ASAPP Fullstack Challenge
+=========================
+
+Welcome to your challenge project!
+
+For this challenge, we ask that you implement a solution at home in your own time. Please send us your results - including code and setup instructions - within a week. If you need more time, let us know.
+
+
+The Details
+-----------
+
+Your challenge is to design and implement a basic chat service that allows users to broadcast messages to each other in a shared chat room. It should include a server backed by a persistent data store and a web client.
+
+Your server should support the following requests:
+
+- Login User
+Takes a username and, if the user doesn’t already exist it, saves it to the data store.
+
+- Send Message
+Takes a message and saves that to the data store. 
+
+- Fetch Messages
+Loads all messages. This call should also have the capability of loading only "new" messages, i.e. messages that a user hasn't seen yet. It's up to you how to support this capability.
+
+Your client should support the following use cases:
+
+- Login
+Let’s a user login.
+
+- Basic chat
+After logging in, a user can send messages to the shared chat room. When a message is sent, it should show up in the windows of all the users who are logged in. A user should also be able to see the older messages that were sent previously.
+
+Suggestions
+-----------
+
+- Use the programming languages, frameworks, and tools that you're most familiar with. At ASAPP you'll be using a lot of React and Go.
+- Use open source libraries rather than reinventing the wheel. Here are a couple of relevant tools that we use:
+    github.com/facebook/react
+    github.com/go-sql-driver/mysql
+- Have fun!
+
+
